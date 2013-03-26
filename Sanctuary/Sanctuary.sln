@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanctuary", "Sanctuary\Sanctuary.csproj", "{C379687E-1011-4CEA-9552-D42560338665}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4CECA744-FFBD-406E-8FAF-AF15B22FDC42} = {4CECA744-FFBD-406E-8FAF-AF15B22FDC42}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanctuary.Web", "Sanctuary.Web\Sanctuary.Web.csproj", "{4CECA744-FFBD-406E-8FAF-AF15B22FDC42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C379687E-1011-4CEA-9552-D42560338665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C379687E-1011-4CEA-9552-D42560338665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C379687E-1011-4CEA-9552-D42560338665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C379687E-1011-4CEA-9552-D42560338665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CECA744-FFBD-406E-8FAF-AF15B22FDC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CECA744-FFBD-406E-8FAF-AF15B22FDC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CECA744-FFBD-406E-8FAF-AF15B22FDC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CECA744-FFBD-406E-8FAF-AF15B22FDC42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
