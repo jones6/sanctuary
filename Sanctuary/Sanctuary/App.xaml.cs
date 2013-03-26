@@ -12,6 +12,7 @@ using System.Windows.Shapes;
 
 namespace Sanctuary
 {
+    // App class
     public partial class App : Application
     {
 
